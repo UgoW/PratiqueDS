@@ -3,7 +3,7 @@ project('PratiqueDS', 'c',
         default_options: ['warning_level=3', 'c_std=gnu11']
 )
 
-executable_sources = ['./src/main.c']
+executable_sources = ['./src/main.c','./src/linkedList.c']
 
 include_dir = include_directories('./include')
 

@@ -26,16 +26,6 @@ Node *append(Node *head, Parcel data) {
     return head;
 }
 
-void insertAfter(Node *prev, Parcel data) {
-    if (prev == NULL) {
-        printf("[!!!] NULL\n");
-        return;
-    }
-    Node *newNode = createNode(data);
-    newNode->next = prev->next;
-    prev->next = newNode;
-}
-
 void printList(Node *head) {
     Node *current = head;
     while (current != NULL) {
@@ -63,5 +53,30 @@ void printVolume(Node *head) {
     }
     printf("\n");
 }
+
+Node *sortList(Node *head) {
+    Node *current = head;
+    Node *index = NULL;
+    Parcel temp;
+    if (head == NULL) {
+        return head;
+    } else {
+        while (current != NULL) {
+            index = current->next;
+            while (index != NULL) {
+                if (volume(current->data) < volume(index->data)) {
+                    temp = current->data;
+                    current->data = index->data;
+                    index->data = temp;
+                }
+                index = index->next;
+            }
+            current = current->next;
+        }
+    }
+    return head;
+}
+
+
 
 

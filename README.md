@@ -3,6 +3,7 @@
 
 ## Notes
 
+- Pour optimer au mieux les camions on va utiliser un algorithme glouton.
 - Stocker les données dans un tableau => Liste chainée modifié pour stocker des parcels
 - Pouvoir les renseigner en dur avec le nom la dimension  (ID DIM)
 - !! FAIRE UNE FONCTION POUR CALCULER LE VOLUME et crée une fonction d'affichage
@@ -13,6 +14,7 @@
 
 - Soucis : pas assez de temsp pour trier tous les colis donc on va generer une liste et juste les remplir jusqu'a ce qu'il n y est plus de place.
 - [15h38] Essaie de l algo glouton (surtout pour l'instant l'algo de tri)
+- [15h57] Trie qui marche, faire l'algo glouton et clean le code
 
-Pour optimer au mieux les camions on va utiliser un algorithme glouton.
+
 

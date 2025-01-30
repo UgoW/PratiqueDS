@@ -20,6 +20,11 @@ int main(void) {
     printList(head);
     printVolume(head);
 
+    // TEST de la fonction trie
+    head = sortList(head);
+    printf("TRI PAR VOLMUE: \n");
+    printList(head);
+
     // Générer la liste des colis pour le camion
 
     printf("VOL CAMION : %.2f\n", CAMION_VOLUME);

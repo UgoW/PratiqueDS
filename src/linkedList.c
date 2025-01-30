@@ -46,7 +46,7 @@ void printList(Node *head) {
                current->data.depth_);
         current = current->next;
     }
-    printf("END\n");
+    printf("\n");
 }
 
 float volume(Parcel parcel) {
@@ -63,6 +63,5 @@ void printVolume(Node *head) {
     }
     printf("\n");
 }
-
 
 

@@ -22,7 +22,7 @@ int main(void) {
 
     // Générer la liste des colis pour le camion
 
-    printf("J'ai un camion de volume %.2f, je peux mettre\n", CAMION_VOLUME);
+    printf("VOL CAMION : %.2f\n", CAMION_VOLUME);
     Node *selectedParcels = NULL;
     Node *current = head;
     float currentVolume = 0.0;
@@ -35,6 +35,7 @@ int main(void) {
         }
         current = current->next;
     }
+    printf("COLIS POSSIBLE: \n");
     printList(selectedParcels);
     return 0;
 }

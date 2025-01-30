@@ -15,6 +15,4 @@
 - Soucis : pas assez de temsp pour trier tous les colis donc on va generer une liste et juste les remplir jusqu'a ce qu'il n y est plus de place.
 - [15h38] Essaie de l algo glouton (surtout pour l'instant l'algo de tri)
 - [15h50] Trie qui marche, faire l'algo glouton et clean le code
-
-
-
+Plus de temps : mais combiner mon glouton boucler while et remplir au fur et a mesure

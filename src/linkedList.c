@@ -76,7 +76,3 @@ Node *sortList(Node *head) {
     }
     return head;
 }
-
-
-
-

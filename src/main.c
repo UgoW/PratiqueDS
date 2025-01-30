@@ -8,6 +8,7 @@ float CAMION_VOLUME = 180;
 int main(void) {
     Node *head = NULL;
 
+    // PARCELS
     Parcel parcel1 = {"WILLIAM", 10.0, 5.0, 2.0};
     Parcel parcel2 = {"MAXIME", 15.0, 7.0, 3.0};
     Parcel parcel3 = {"HUGO", 8.0, 4.0, 2.5};
